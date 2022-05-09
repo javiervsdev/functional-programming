@@ -18,3 +18,12 @@ It is similar to Function, but it takes two arguments and returns a value.
 ```java
 BiFunction<Integer, Integer, Integer> sum = (x, y) -> x + y
 ```
+
+### Consumer
+
+It takes a single argument and does not return a value.
+
+- Example:
+```java
+Consumer<String> print = x -> System.out.println(x);
+```
