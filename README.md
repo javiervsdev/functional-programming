@@ -36,3 +36,12 @@ It is similar to Consumer, but it takes two arguments and does not return a valu
 ```java
 BiConsumer<String, String> print = (x, y) -> System.out.println(x + y);
 ```
+
+### Predicate
+
+It takes a single argument and returns a boolean value.
+
+- Example:
+```java
+Predicate<String> isEmpty = x -> x.isEmpty();
+```
