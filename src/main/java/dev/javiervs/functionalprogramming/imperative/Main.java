@@ -1,10 +1,11 @@
 package dev.javiervs.functionalprogramming.imperative;
 
+import dev.javiervs.functionalprogramming.common.Person;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
-import static dev.javiervs.functionalprogramming.imperative.Gender.*;
+import static dev.javiervs.functionalprogramming.common.Gender.*;
 
 public class Main {
     private final static List<Person> people;
