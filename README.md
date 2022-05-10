@@ -27,3 +27,12 @@ It takes a single argument and does not return a value.
 ```java
 Consumer<String> print = x -> System.out.println(x);
 ```
+
+### BiConsumer
+
+It is similar to Consumer, but it takes two arguments and does not return a value.
+
+- Example:
+```java
+BiConsumer<String, String> print = (x, y) -> System.out.println(x + y);
+```
