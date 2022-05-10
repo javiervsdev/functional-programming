@@ -45,3 +45,12 @@ It takes a single argument and returns a boolean value.
 ```java
 Predicate<String> isEmpty = x -> x.isEmpty();
 ```
+
+### Supplier
+
+It does not take any argument and returns a value.
+
+- Example:
+```java
+Supplier<String> randomUUID = () -> UUID.randomUUID().toString();
+```
